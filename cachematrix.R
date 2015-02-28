@@ -1,15 +1,22 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Set the value of the matrix
 
-## Write a short comment describing this function
+
+## Give a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-
+        m <- NULL
+        set <- function(y) {
+                x <<- y
+                m <<- NULL
+        }
+x
 }
 
 
-## Write a short comment describing this function
+## Return a matrix that is the inverse of 'x'
+## Get mean of inverse matrix x
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
+ y<-solve(x)
+ m <- y$getmean()
+ }
